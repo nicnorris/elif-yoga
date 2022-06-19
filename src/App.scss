@@ -1,0 +1,39 @@
+$primary-color: #ffd700;
+
+@import "animate.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap");
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url(./assets/fonts/helvetica-neu.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(./assets/fonts/poppins-regular.ttf) format("ttf");
+}
+
+input,
+textarea {
+  font-family: "Poppins";
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.landing-container {
+  background-image: url("./assets/images/background.gif");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.container-home-page {
+  background-image: url("./assets/images/home-pic.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}

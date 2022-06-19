@@ -1,0 +1,50 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1%;
+  margin-left: 3%;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-zone {
+  font-size: 2.6vw;
+  line-height: 1.5em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  max-width: 35%;
+  margin-top: 20vh;
+  margin-left: 3.5vw;
+}
+
+.logo-small {
+  max-height: 3.7vw;
+  margin-right: 5vw;
+}
+
+.about-icon {
+  max-height: 2.5vw;
+  margin-right: 5vw;
+}
+
+.classes-icon {
+  max-height: 2.5vw;
+  margin-right: 5vw;
+}
+
+.contact-icon {
+  max-height: 2.5vw;
+  margin-right: 2vw;
+}
+
+.home-pic {
+  max-width: 95%;
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+}
