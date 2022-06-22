@@ -1,0 +1,28 @@
+.text-zone-about {
+  font-size: 1.4vw;
+  line-height: 1.5em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  max-width: 35%;
+  // margin-top: 10vh;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  height: 90%;
+}
+
+.jiva-link {
+  color: #478239;
+  text-decoration: none;
+}
+.jiva-link:hover {
+  color: #8ebb84;
+}
+
+.jiva-link:visited {
+  color: #478239;
+}

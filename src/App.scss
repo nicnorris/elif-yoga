@@ -37,3 +37,27 @@ body {
   background-position: center;
   height: 100vh;
 }
+
+.container-about-page {
+  background-image: url("./assets/images/about-pic.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+}
+
+.container-classes-page {
+  background-image: url("./assets/images/classes-pic.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+}
+
+.container-contact-page {
+  background-image: url("./assets/images/contact-pic.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+}
