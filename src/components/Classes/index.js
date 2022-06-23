@@ -54,7 +54,11 @@ const Classes = () => {
               What is your experience with yoga?
               <br></br>
               <br></br>
-              Let’s chat, get in touch for info on trial sessions and pricing.
+              Let’s chat, get in{" "}
+              <a href="../Contact" className="classes-link">
+                touch
+              </a>{" "}
+              for info on trial sessions and pricing.
             </h1>
           </div>
           <div className="about-img-container">

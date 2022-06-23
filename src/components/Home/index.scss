@@ -5,6 +5,18 @@
   padding-top: 1%;
   margin-left: 3%;
 }
+
+@media (max-width: 960px) {
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1%;
+    margin-left: 3%;
+    //flex-direction: column;
+  }
+}
+
 .nav-links {
   display: flex;
   justify-content: space-between;
@@ -20,9 +32,30 @@
   margin-left: 7%;
 }
 
+@media (max-width: 960px) {
+  .text-zone {
+    font-size: 5vw;
+    line-height: 1.5em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    max-width: 100%;
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-top: 5%;
+    //background-color: rgb(255, 255, 255, 0.4);
+  }
+}
+
 .logo-small {
   max-height: 3.7vw;
   margin-right: 5vw;
+}
+
+@media (max-width: 960px) {
+  .logo-small {
+    max-height: 9.7vw;
+    margin-right: 5vw;
+  }
 }
 
 .about-icon {
@@ -30,14 +63,35 @@
   margin-right: 5vw;
 }
 
+@media (max-width: 960px) {
+  .about-icon {
+    max-height: 4.7vw;
+    margin-right: 5vw;
+  }
+}
+
 .classes-icon {
   max-height: 2.5vw;
   margin-right: 5vw;
 }
 
+@media (max-width: 960px) {
+  .classes-icon {
+    max-height: 4.7vw;
+    margin-right: 5vw;
+  }
+}
+
 .contact-icon {
   max-height: 2.5vw;
   margin-right: 2vw;
+}
+
+@media (max-width: 960px) {
+  .contact-icon {
+    max-height: 4.7vw;
+    margin-right: 5vw;
+  }
 }
 
 .home-pic {
@@ -48,4 +102,12 @@
   display: flex;
   align-items: center;
   height: 90%;
+}
+
+@media (max-width: 960px) {
+  .home-content {
+    display: flex;
+    align-items: center;
+    height: 40%;
+  }
 }

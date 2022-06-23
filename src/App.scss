@@ -46,6 +46,16 @@ body {
   height: 100vh;
 }
 
+@media (max-width: 960px) {
+  .container-about-page {
+    background-image: url("./assets/images/about-pic.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+  }
+}
+
 .container-classes-page {
   background-image: url("./assets/images/classes-pic.png");
   background-size: 50%;
@@ -54,10 +64,30 @@ body {
   height: 100vh;
 }
 
+@media (max-width: 960px) {
+  .container-classes-page {
+    background-image: url("./assets/images/classes-pic.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+  }
+}
+
 .container-contact-page {
   background-image: url("./assets/images/contact-pic.png");
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: right;
   height: 100vh;
+}
+
+@media (max-width: 960px) {
+  .container-contact-page {
+    background-image: url("./assets/images/contact-pic.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+  }
 }
