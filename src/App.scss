@@ -38,6 +38,26 @@ body {
   height: 100vh;
 }
 
+@media (max-width: 960px) {
+  .container-home-page {
+    background-image: url("./assets/images/home-pic.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-home-page {
+    background-image: url("./assets/images/home-pic.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100vh;
+  }
+}
+
 .container-about-page {
   background-image: url("./assets/images/about-pic.png");
   background-size: 50%;
@@ -49,10 +69,21 @@ body {
 @media (max-width: 960px) {
   .container-about-page {
     background-image: url("./assets/images/about-pic.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 8% 60%;
+    //padding-top: 20%;
+    height: 100vh;
+  }
+}
+@media (max-width: 768px) {
+  .container-about-page {
+    background-image: url("./assets/images/about-pic.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: right;
-    height: 100vh;
+    //padding-top: 20%;
+    height: 140vh;
   }
 }
 
@@ -67,9 +98,20 @@ body {
 @media (max-width: 960px) {
   .container-classes-page {
     background-image: url("./assets/images/classes-pic.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 8% 60%;
+    //padding-top: 20%;
+    height: 100vh;
+  }
+}
+@media (max-width: 760px) {
+  .container-classes-page {
+    background-image: url("./assets/images/classes-pic-light.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: right;
+    //padding-top: 20%;
     height: 100vh;
   }
 }

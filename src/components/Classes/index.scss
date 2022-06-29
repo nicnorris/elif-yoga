@@ -1,5 +1,5 @@
 .text-zone-classes {
-  font-size: 1.3vw;
+  font-size: 1.4vw;
   line-height: 1.5em;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
@@ -9,10 +9,55 @@
   margin-right: 7%;
 }
 
+@media (max-width: 960px) {
+  .text-zone-classes {
+    font-size: 2vw;
+    line-height: 1.5em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    max-width: 50%;
+    margin-right: 5%;
+    margin-left: 50%;
+    margin-top: 0%;
+    //background-color: rgb(255, 255, 255, 0.4);
+  }
+}
+
+@media (max-width: 760px) {
+  .text-zone-classes {
+    font-size: 3.1vw;
+    line-height: 1.5em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    max-width: 100%;
+    margin-right: 6%;
+    margin-left: 6%;
+    margin-bottom: 20%;
+    //margin-top: 5%;
+    //background-color: rgb(255, 255, 255, 0.4);
+  }
+}
+
 .classes-content {
   display: flex;
   align-items: center;
   height: 90%;
+}
+
+@media (max-width: 960px) {
+  .classes-content {
+    display: flex;
+    align-items: center;
+    height: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .classes-content {
+    display: flex;
+    //align-items: center;
+    height: 100%;
+  }
 }
 
 .classes-link {

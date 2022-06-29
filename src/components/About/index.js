@@ -8,14 +8,17 @@ import Classes from "../../assets/images/classes.png";
 import Contact from "../../assets/images/contact.png";
 import HomePic from "../../assets/images/home-pic.jpg";
 import AboutPic from "../../assets/images/about-pic.png";
+import Topbar from "../Topbar";
 
 const About = () => {
   return (
     <div className="container-about-page">
-      <div className="nav-bar">
+      <Topbar />
+      {/* <div className="nav-bar">
         <Link to="/Home">
           <img className="logo-small" src={LogoB} alt="logo" />
         </Link>
+
         <nav>
           <NavLink exact="true" activeclassname="active" to="/"></NavLink>
           <div className="nav-links">
@@ -30,7 +33,7 @@ const About = () => {
             </NavLink>
           </div>
         </nav>
-      </div>
+      </div> */}
       <div className="about-content">
         <div className="text-zone-about">
           <h1>
